@@ -4,9 +4,6 @@ git status
 git add .
 git status
 
-git config --global user.email "choiwonnyeong3032@gmai.com"
-git config --global user.name "orbeat"
-
 set message = "init message"
 set /p message=commit massage:
 git commit -m "%message%"
