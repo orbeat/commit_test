@@ -5,7 +5,7 @@ git add .
 git status
 
 set /p message=commit massage:
-if "%message%"=="" set message="init message"
+if "%message%"=="" set message=init message
 echo %message%
 git commit -m "%message%"
 
@@ -14,3 +14,5 @@ git remote
 
 git push origin master
 pause
+
+exit /b
