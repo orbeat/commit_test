@@ -7,8 +7,9 @@ git status
 git config --global user.email "choiwonnyeong3032@gmai.com"
 git config --global user.name "orbeat"
 
+set message = "init message"
 set /p message=commit massage:
-git commit -m %message%
+git commit -m "%message%"
 git remote add origin https://github.com/orbeat/commit_test
 git remote
 
